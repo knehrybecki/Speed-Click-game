@@ -1,4 +1,3 @@
-
 import { gameScore } from './script.js'
 
 export let score = 0
@@ -14,3 +13,4 @@ export const checkClick = ({target}) => {
         target.style.pointerEvents = "none"
     }
 }
+    

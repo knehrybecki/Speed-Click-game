@@ -96,3 +96,4 @@ const startGame = () => {
 export const gameScore = document.querySelector('.game__score')
 
 boxCircle.forEach(circle => circle.addEventListener('click', event => checkClick(event) ))
+    

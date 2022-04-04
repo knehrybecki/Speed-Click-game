@@ -18,3 +18,4 @@ export const randomShowRed = () => {
         }, 1000);
     }, getRandomNumberBetween(1000, 5000))
 }
+    
