@@ -1,0 +1,53 @@
+.game
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
+    flex-direction: column
+    margin-top: 50px
+
+    &__timer
+        font-size: 25px
+
+    &__box,
+    &__score,
+    &__start
+       margin-top: 50px
+
+    &__score,
+    &__start
+        font-size: 20px
+
+    &__start
+        border: 2px solid $black-color
+        border-radius: 10px
+        padding: 5px
+
+    &__start:hover
+        background-color: $white-color
+        color: $black-color
+        transition: all 1s ease
+
+.box
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
+    flex-flow: row nowrap
+    column-gap: 20px
+
+    &__circle
+        width: 80px
+        height: 80px
+        border-radius: 50%
+        background-color: $black-color
+
+.red
+    background-color: $red-color
+    
+.green
+    background-color: $green-color
+
+.hidden
+    display: none
+    
