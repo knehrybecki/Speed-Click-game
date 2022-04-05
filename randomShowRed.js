@@ -1,8 +1,4 @@
-import { boxCircle } from "./script.js"
-
-const getRandomNumberBetween = (min,max) => {
-    return Math.floor(Math.random() * (max - min + 1) + min)
-}
+import { boxCircle } from './script.js'
 
 export const randomShowRed = () => {
     setInterval(() => {
@@ -15,7 +11,8 @@ export const randomShowRed = () => {
             randomShow.classList.remove('green')
 
             randomShow.style.pointerEvents = null
-        }, 1000);
-    }, getRandomNumberBetween(1000, 5000))
+        }, 1000)
+
+    }, 2000)
 }
     

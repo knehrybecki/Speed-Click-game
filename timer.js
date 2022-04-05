@@ -1,4 +1,4 @@
-import { score } from "./checkClick.js"
+import { score } from './checkClick.js'
 
 export const createTimer = () => {
     let time = 60
@@ -9,7 +9,7 @@ export const createTimer = () => {
         if (!time) {
             clearInterval(countDown)
 
-            alert("The End Game! "+" Your Score is : " + score)
+            alert('The End Game! '+' Your Score is : ' + score)
 
             window.location.reload()
         }
@@ -22,4 +22,4 @@ export const createTimer = () => {
       
     }, 1000)
 }
- 
+    
