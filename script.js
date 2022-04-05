@@ -30,7 +30,7 @@ const renderGame = () => {
 
     const gameScore = document.createElement('div')
     gameScore.classList.add('game__score')
-    gameScore.textContent = 'Score: ' + score
+    gameScore.textContent = `Score: ${score}`
     gameDiv.appendChild(gameScore)
 
     const startGame = document.createElement('button')
@@ -71,7 +71,6 @@ const startGame = () => {
 
             if (time === 3) {
                 timer.textContent = 'Ready!?'
-
             }
 
             else if (time === 0) {

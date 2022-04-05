@@ -9,7 +9,7 @@ export const createTimer = () => {
         if (!time) {
             clearInterval(countDown)
 
-            alert('The End Game! '+' Your Score is : ' + score)
+            alert(`The End Game! Your Score is: ${score}`)
 
             window.location.reload()
         }
@@ -18,7 +18,7 @@ export const createTimer = () => {
 
        const timer = document.querySelector('.game__timer')
     
-        timer.textContent = '00:' + result
+        timer.textContent = `00:${result}`
       
     }, 1000)
 }
